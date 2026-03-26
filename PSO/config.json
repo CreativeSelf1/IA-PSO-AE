@@ -1,0 +1,24 @@
+{
+  "configuraciones": [
+    {
+      "id": 1,
+      "nombre": "exploracion",
+      "w": 1.0,
+      "c1": 3.0,
+      "c2": 0.5,
+      "maxv": 0.3,
+      "puntos": 100,
+      "ruta_salida": "resultados/exploracion/"
+    },
+    {
+      "id": 2,
+      "nombre": "explotacion",
+      "w": 0.4,
+      "c1": 0.5,
+      "c2": 3.0,
+      "maxv": 0.1,
+      "puntos": 100,
+      "ruta_salida": "resultados/explotacion/"
+    }
+  ]
+}
