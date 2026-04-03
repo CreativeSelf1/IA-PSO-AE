@@ -3,22 +3,35 @@
     {
       "id": 1,
       "nombre": "exploracion",
+      "comentario": "Alta inercia + componente cognitiva dominante. Explora ampliamente antes de converger.",
       "w": 1.0,
-      "c1": 3.0,
+      "c1": 2.7,
       "c2": 0.5,
-      "maxv": 0.3,
-      "puntos": 100,
+      "maxv": 3.0,
+      "puntos": 50,
       "ruta_salida": "resultados/exploracion/"
     },
     {
       "id": 2,
       "nombre": "explotacion",
-      "w": 0.4,
-      "c1": 0.5,
-      "c2": 3.0,
-      "maxv": 0.1,
-      "puntos": 100,
+      "comentario": "Baja inercia + solo componente social. Converge rápido hacia el mejor global.",
+      "w": 0.6,
+      "c1": 0.7,
+      "c2": 2.5,
+      "maxv": 1.7,
+      "puntos": 50,
       "ruta_salida": "resultados/explotacion/"
+    },
+    {
+      "id": 3,
+      "nombre": "balanceada",
+      "comentario": "Balance óptimo exploración/explotación.",
+      "w": 0.85,
+      "c1": 1.6,
+      "c2": 1.6,
+      "maxv": 2.5,
+      "puntos": 50,
+      "ruta_salida": "resultados/balanceada/"
     }
   ]
 }
