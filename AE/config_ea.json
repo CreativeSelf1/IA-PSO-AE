@@ -1,24 +1,26 @@
 {
+  
   "configuraciones": [
     {
       "id": 1,
       "nombre": "exploracion",
       "comentario": "Alta mutación y BLX alto para explorar más.",
-      "popSize": 40,
+      "popSize": 20,
       "kTorneo": 2,
       "pCrossover": 0.9,
       "alphaBLX": 0.7,
       "pMutacion": 0.4,
-      "sigma": 0.8,
+      "sigma": 1.5,
       "elitismo": 1,
       "ruta_salida": "resultados_ea/exploracion/"
     },
+
     {
       "id": 2,
       "nombre": "explotacion",
       "comentario": "Mutación baja, BLX bajo y torneo fuerte.",
-      "popSize": 40,
-      "kTorneo": 4,
+      "popSize": 20,
+      "kTorneo": 10,
       "pCrossover": 0.9,
       "alphaBLX": 0.2,
       "pMutacion": 0.15,
@@ -26,12 +28,13 @@
       "elitismo": 2,
       "ruta_salida": "resultados_ea/explotacion/"
     },
+
     {
       "id": 3,
       "nombre": "balanceada",
       "comentario": "Equilibrio entre exploración y explotación.",
-      "popSize": 40,
-      "kTorneo": 3,
+      "popSize": 20,
+      "kTorneo": 5,
       "pCrossover": 0.9,
       "alphaBLX": 0.4,
       "pMutacion": 0.25,
